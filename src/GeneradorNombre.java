@@ -1,6 +1,6 @@
 public class GeneradorNombre {
     public static void main(String[] args) {
-        String nombreReal="Montserrat";
+        String nombreReal="Tunombre";
 
         System.out.println("! Has clonado el repositorio correctamente!");
         System.out.println("Tu misión: Debes hacer tu primer commit con tu nombre");
