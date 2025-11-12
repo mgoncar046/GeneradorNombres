@@ -3,7 +3,7 @@ public class GeneradorNombre {
         String nombreReal="Tunombre";
 
         System.out.println("! Has clonado el repositorio correctamente!");
-        System.out.println("Tu misión: Debes hacer tu primer commit con tu nombre");
+        System.out.println("Tu misión: Debes ejecutar el programa con tu nombre y apellidos");
 
         String[] sustantivos={"Rayo", "Eclipse", "Gigante", "Trueno", "Científico"};
         String[] adjetivos={"Veloz","Oscuro","Atómico","Elástico","Invencible"};
