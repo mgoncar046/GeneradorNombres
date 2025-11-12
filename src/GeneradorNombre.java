@@ -1,0 +1,18 @@
+public class GeneradorNombre {
+    public static void main(String[] args) {
+        String nombreReal="Montserrat";
+
+        System.out.println("! Has clonado el repositorio correctamente!");
+        System.out.println("Tu misión: Debes hacer tu primer commit con tu nombre");
+
+        String[] sustantivos={"Rayo", "Eclipse", "Gigante", "Trueno", "Científico"};
+        String[] adjetivos={"Veloz","Oscuro","Atómico","Elástico","Invencible"};
+
+        int indiceAdj = (nombreReal.length() -1) % adjetivos.length;
+        int indiceSustantivo= (nombreReal.length()-1) % sustantivos.length;
+
+        String nuevoNombre=  sustantivos[indiceSustantivo] + " " + adjetivos[indiceAdj] ;
+        System.out.println(nombreReal + " tienes un nuevo nombre superhumano: " + nuevoNombre);
+
+    }
+}
