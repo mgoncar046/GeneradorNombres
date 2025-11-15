@@ -1,6 +1,6 @@
 public class GeneradorNombre {
     public static void main(String[] args) {
-        String nombreReal="Montserrat González Carretero";
+        String nombreReal="MiNombre";
 
         System.out.println("! Has clonado el repositorio correctamente!");
         System.out.println("Tu misión: Debes ejecutar el programa con tu nombre y apellidos");
